@@ -13,7 +13,7 @@ offset_right = 810.0
 offset_bottom = 375.0
 text = "heeeeeeee
 
-Hahhhhhhhh"
+not oh noo"
 label_settings = SubResource("LabelSettings_6fkvu")
 
 [node name="TarkovLogo" type="Sprite2D" parent="." unique_id=1289854829]
