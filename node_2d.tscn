@@ -1,10 +1,13 @@
 [gd_scene format=3 uid="uid://rapy2g616140"]
 
-[ext_resource type="Texture2D" uid="uid://cke0af0q60nd2" path="res://icon.svg" id="1_wtcfe"]
+[ext_resource type="FontFile" uid="uid://38okw18r3wgw" path="res://Fonts/FuturaCyrillicBook.ttf" id="1_wtcfe"]
 
-[node name="Node2D" type="Node2D" unique_id=1499955919]
+[sub_resource type="LabelSettings" id="LabelSettings_6fkvu"]
+font = ExtResource("1_wtcfe")
+font_size = 80
 
-[node name="Sprite2D" type="Sprite2D" parent="." unique_id=139187807]
-position = Vector2(23.749985, 123.25007)
-scale = Vector2(3.3164065, 9.542969)
-texture = ExtResource("1_wtcfe")
+[node name="Label" type="Label" unique_id=1881103836]
+offset_right = 809.0
+offset_bottom = 375.0
+text = "heeeeeeee"
+label_settings = SubResource("LabelSettings_6fkvu")
