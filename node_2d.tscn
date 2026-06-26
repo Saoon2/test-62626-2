@@ -1,22 +1,13 @@
 [gd_scene format=3 uid="uid://rapy2g616140"]
 
 [ext_resource type="FontFile" uid="uid://38okw18r3wgw" path="res://Fonts/FuturaCyrillicBook.ttf" id="1_wtcfe"]
-[ext_resource type="Texture2D" uid="uid://b4fn2xkebhuv5" path="res://assets/tarkovLogo.png" id="2_0e48y"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_6fkvu"]
 font = ExtResource("1_wtcfe")
 font_size = 80
 
 [node name="Label" type="Label" unique_id=1881103836]
-offset_left = 1.0
-offset_right = 810.0
+offset_right = 809.0
 offset_bottom = 375.0
-text = "heeeeeeee
-
-Hahhhhhhhh"
+text = "heeeeeeee"
 label_settings = SubResource("LabelSettings_6fkvu")
-
-[node name="TarkovLogo" type="Sprite2D" parent="." unique_id=1289854829]
-position = Vector2(869.5, 329.25)
-scale = Vector2(0.38878328, 0.9077586)
-texture = ExtResource("2_0e48y")
